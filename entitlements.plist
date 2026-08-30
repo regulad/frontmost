@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- The RootHide base set: without these a jailbreak binary runs
+         sandboxed and containerized, and this one has to ask BackBoard and
+         read the installed-app list. See the RootHide developer notes,
+         entitlements.md.
+
+         Nothing for SpringBoard. Its frontmost query returns NULL to this
+         tool on iOS 15.8 with or without the SpringBoard and FrontBoard
+         launch/debug entitlements -- both were tried -- so the tool does not
+         carry them; the BackBoard route answers with the base set alone. -->
+    <key>platform-application</key>
+    <true/>
+    <key>com.apple.private.security.no-sandbox</key>
+    <true/>
+    <key>com.apple.private.security.storage.AppBundles</key>
+    <true/>
+    <key>com.apple.private.security.storage.AppDataContainers</key>
+    <true/>
+</dict>
+</plist>
