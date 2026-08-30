@@ -1,0 +1,19 @@
+# Managed by the Probot "Settings" app (github.com/repository-settings/app).
+# Editing this file and pushing it to the default branch updates the repo.
+repository:
+  name: frontmost
+  description: >-
+    Prints the foreground app on a jailbroken iOS device as one line of JSON.
+    Asks BackBoard rather than SpringBoard, which on iOS 15 answers nobody;
+    roothide/Dopamine, built with theos, for rerake's bookie-jb device plane.
+  homepage: ""
+  topics: "ios, jailbreak, roothide, dopamine, theos, cli, backboardservices, springboardservices, foreground-app, arm64e, ios15"
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  has_downloads: true
+  default_branch: master
+  allow_squash_merge: true
+  allow_merge_commit: true
+  allow_rebase_merge: true
+  delete_branch_on_merge: true

@@ -50,7 +50,8 @@ make package FINALPACKAGE=1 THEOS_PACKAGE_SCHEME=rootless
 Installs to `/usr/local/bin/frontmost` as `xyz.regulad.frontmost`, signed
 with the RootHide base entitlements (`entitlements.plist`) so it runs outside
 a container. Hosted on the Sileo-style repository at
-`https://ios.regulad.xyz stable main`.
+`https://ios.regulad.xyz stable main`; [PREP.md](PREP.md) is the device side
+and the build side of getting it there.
 
 ## Status
 
