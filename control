@@ -1,0 +1,9 @@
+Package: xyz.regulad.frontmost
+Name: frontmost
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Description: Prints the frontmost application as one line of JSON. For rerake's bookie-jb.
+Maintainer: Parker Wahle
+Author: Parker Wahle
+Section: Utilities
+Depends: firmware (>= 15.0)
