@@ -5,7 +5,7 @@ repository:
   description: >-
     Prints the foreground app on a jailbroken iOS device as one line of JSON.
     Asks BackBoard rather than SpringBoard, which on iOS 15 answers nobody;
-    roothide/Dopamine, built with theos, for rerake's bookie-jb device plane.
+    roothide/Dopamine, built with theos
   homepage: ""
   topics: "ios, jailbreak, roothide, dopamine, theos, cli, backboardservices, springboardservices, foreground-app, arm64e, ios15"
   has_issues: true
