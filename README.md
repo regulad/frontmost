@@ -10,11 +10,6 @@ $ frontmost
 or `{}` when nothing is — the lock screen, the home screen, the app switcher.
 The exit status is 0 in both cases; anything else is a failure to ask.
 
-It exists for [rerake](https://github.com/regulad/rerake)'s `bookie-jb`, which
-runs it over ssh to answer the device plane's "what app is in the foreground"
-question on devices that have no automation harness to ask. Nothing about it
-is specific to that.
-
 ## How it answers
 
 Two routes, tried in order:
