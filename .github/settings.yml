@@ -6,9 +6,7 @@ _extends: .github
 repository:
   name: frontmost
   description: >-
-    Prints the foreground app on a jailbroken iOS device as one line of JSON.
-    Asks BackBoard rather than SpringBoard, which on iOS 15 answers nobody;
-    roothide/Dopamine, built with theos
+    Prints the foreground app on a jailbroken iOS device as one line of JSON
   homepage: ""
   private: false
   # Topics: comma-and-space separated string, NOT a YAML list.
